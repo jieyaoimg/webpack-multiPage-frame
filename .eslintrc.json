@@ -1,0 +1,19 @@
+{
+    "extends": "eslint:recommended",
+    "env":{
+        "node":true,
+        "es6":true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6, //指定ECMAScript支持的版本，6为ES6
+        "sourceType": "module" //指定来源的类型，有两种”script”或”module”
+
+    },
+    "rules": {
+        "quotes": "off",
+        "no-console":"off",
+        "no-unused-vars":"off",
+        "no-unreachable":"off",
+        "no-redeclare":"warn"
+    }
+}

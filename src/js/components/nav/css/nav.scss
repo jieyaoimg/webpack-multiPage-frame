@@ -1,0 +1,10 @@
+.nav{
+  font:20px/40px microsoft yahei;
+  background: #333 url("../images/nav-ico-dog.png") no-repeat left center;
+  background-size: 30px 30px;
+  padding-left: 25px;
+  overflow: hidden;
+  li{padding: 0 10px;}
+  li a{color: #fff;}
+  li a img{vertical-align: middle;}
+}
